@@ -75,9 +75,9 @@ int main(int argc, const char *argv[])
 
         // extract 2D keypoints from current image
         vector<cv::KeyPoint> keypoints; // create empty feature list for current image
-        std::string detectorType = "SHITOMASI";
+ //       std::string detectorType = "SHITOMASI";
 //        std::string detectorType = "HARRIS";
-//        std::string detectorType = "SIFT";
+        std::string detectorType = "SIFT";
 //        std::string detectorType = "BRISK";
 //        std::string detectorType = "AKAZE";
 //        std::string detectorType = "ORB";
